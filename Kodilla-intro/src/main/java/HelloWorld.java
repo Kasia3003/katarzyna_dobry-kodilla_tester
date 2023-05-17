@@ -23,4 +23,7 @@ public class HelloWorld {
             System.out.println(result);
         }
     }
+
+    public static class Notebook {
+    }
 }
