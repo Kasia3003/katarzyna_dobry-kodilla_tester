@@ -1,5 +1,5 @@
 public class Notebook {
-    int wieght;
+    int weight;
     public Notebook(int weight) {
         this.weight = weight;
         Notebook notebook = new Notebook(600);
