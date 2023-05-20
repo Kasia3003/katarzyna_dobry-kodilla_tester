@@ -1,3 +1,5 @@
+package com.kodilla;
+
 public class Notebook {
     int weight;
     public Notebook(int weight) {
