@@ -9,7 +9,7 @@ public class FirstClass
     if (notebook.price < 900) {
     System.out.println("This notebook is cheap.");
     } else {
-        System.out.println("This notebook is quite expensive.");
+    System.out.println("This notebook is quite expensive.");
     }
     }
 }
