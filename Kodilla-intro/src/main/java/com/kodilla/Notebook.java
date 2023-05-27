@@ -45,7 +45,7 @@ public class Notebook {
         }
     }
 
-    public void checkYear() {
+    {
         if (this.year < 2015 && this.price < 600) {
             System.out.println("Do not buy this notebook.");
         }
@@ -56,18 +56,9 @@ public class Notebook {
         }
     }
 
-    public void checkPrice(); public void checkYear() {
-        if (this.year < 2015 && this.price < 600) {
-            System.out.println("Do not buy this notebook.");
-        }
-        if (this.year <= 2015 || this.year <= 2021 && this.price <= 600 || this.price <= 2000) {
-            System.out.println("You can think about buying this notebook.");
-        } else {
-            System.out.println("Go ahead, buy!");
-        }
     }
 
-}
+
 
 
 
