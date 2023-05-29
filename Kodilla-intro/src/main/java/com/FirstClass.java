@@ -1,6 +1,4 @@
-package com.kodilla;
-
-import com.kodilla.Notebook;
+package com;
 
 public class FirstClass {
     public static void main(String[] args) {
