@@ -6,12 +6,12 @@ public class OperatingSystem {
     public OperatingSystem(int year) {
         this.year = year; }
 
-    public void TurnOn() {
+    public void turnOn() {
         System.out.println("Operating System turned on 2023");
     }
 
-    public void turnoff() {
-        System.out.println("Operating System turned on 2021");
+    public void turnOff() {
+        System.out.println("Operating System turned on 2023");
     }
     public int getYear() {
         return year;

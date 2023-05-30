@@ -1,4 +1,4 @@
-package com;
+package com.kodilla;
 
 public class NotebookMain {
     public static void main(String[] args) {

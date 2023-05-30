@@ -1,4 +1,4 @@
-package com;
+package com.kodilla;
 public class Kasia {
     public static void main(String[] args) {
 

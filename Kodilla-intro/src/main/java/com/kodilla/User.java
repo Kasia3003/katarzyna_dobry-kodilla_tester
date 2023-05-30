@@ -1,4 +1,4 @@
-package com;
+package com.kodilla;
 
 public class User {
     String name;

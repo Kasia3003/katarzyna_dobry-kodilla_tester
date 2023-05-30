@@ -1,6 +1,7 @@
-package com;
+package com.kodilla;
 
-public class GradesMain {
+public class FirstClass {
     public static void main(String[] args) {
+
     }
 }
