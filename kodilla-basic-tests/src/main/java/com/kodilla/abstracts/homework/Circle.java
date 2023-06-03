@@ -1,28 +1,17 @@
 package com.kodilla.abstracts.homework;
 
 public class Circle extends Shape {
-
-    public Circle() {
-        super(3, 5);
+    private double radius;
+    public Circle(double radius) {
+        this.radius = radius;
     }
-
     @Override
-    public int getArea() {
-        System.out.println("xx" + getArea());
-        return area();
+    public double getSurface() {
+        return Math.PI * radius * radius;
     }
-
-    private int area() {
-        return 0;
+    @Override
+    public double getCircumference () {
+        return 2 * Math.PI * radius;
     }
-
-    public int getCircuit() {
-        System.out.println("xx" + getCircuit());
-        return circuit();
-    }
-    private int circuit() {
-
-        return 0;
-    }
-
 }
+
