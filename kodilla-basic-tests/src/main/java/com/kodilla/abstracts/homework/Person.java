@@ -1,6 +1,6 @@
 package com.kodilla.abstracts.homework;
 
-public abstract class Person extends Job {
+public class Person  {
     private String name;
     private int age;
     private String job;
@@ -10,15 +10,15 @@ public abstract class Person extends Job {
         this.age = age;
         this.job = job;
     }
-    @Override
-    public String getName () {
+
+    public String getName() {
         return name;
     }
-    @Override
-    public int getAge () {
+
+    public int getAge() {
         return age;
     }
-    @Override
+
     public String getJob() {
         return job;
     }
