@@ -19,7 +19,7 @@ public class JobApplication {
             }
         };
         System.out.println("Teacher's responsibility is: " + teacher.getResponsibility() + " for " + teacher.getSalary());
-        Person person = new Person("Anna",   22, "teach");
+        Person person = new Person("Anna", 22, "teach");
         System.out.println(person.getName() + person.getAge() + "'s responsibility is " + person.getJob());
     }
 }
