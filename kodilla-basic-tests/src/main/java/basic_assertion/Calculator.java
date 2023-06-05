@@ -5,6 +5,7 @@ public class Calculator {
     int b;
     double c;
     int d;
+    double e;
 
     public int sum(int a, int b) {
         return a + b;
@@ -16,5 +17,9 @@ public class Calculator {
 
     double pow(double c) {
         return c * c;
+    }
+
+    public int doublePower(double sumResult) {
+        return 0;
     }
 }

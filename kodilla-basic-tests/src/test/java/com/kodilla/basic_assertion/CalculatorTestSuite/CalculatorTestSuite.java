@@ -3,10 +3,11 @@ package com.kodilla.basic_assertion.CalculatorTestSuite;
 import basic_assertion.Calculator;
 import org.junit.jupiter.api.Test;
 
-import static java.lang.Math.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTestSuite {
+    private Object calculator;
+
     @Test
     public void testSum() {
         Calculator calculator = new Calculator();
@@ -29,6 +30,12 @@ public class CalculatorTestSuite {
         calculator = null;
         double powResult = pow(c);
         assertEquals(4, 3, powResult);
+    }
+    public void testDoublePower() {
+        Calculator calculator = new Calculator();
+        double sumResult = 169;
+        int doublePowerResult = calculator.doublePower(sumResult);
+        assertEquals(169, doublePowerResult, 0.01);
     }
 
     private double pow(double c) {
