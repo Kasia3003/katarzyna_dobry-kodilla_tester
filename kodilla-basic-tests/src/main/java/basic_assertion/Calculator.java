@@ -20,6 +20,6 @@ public class Calculator {
     }
 
     public int doublePower(double sumResult) {
-        return 0;
+        return 2;
     }
 }
