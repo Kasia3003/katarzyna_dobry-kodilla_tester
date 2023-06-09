@@ -10,13 +10,17 @@ public class Opel implements Car {
         this.increaseSpeed = increaseSpeed;
         this.decreaseSpeed = decreaseSpeed;
     }
-    public int getSpeed() {
+
+    public Opel(double a) {
+    }
+
+    public double getSpeed() {
         return speed;
     }
-    public int getIncreaseSpeed() {
+    public double getIncreaseSpeed() {
         return speed + increaseSpeed;
     }
-    public int getDecreaseSpeed() {
+    public double getDecreaseSpeed() {
         return speed - decreaseSpeed;
     }
 }

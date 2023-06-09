@@ -2,21 +2,21 @@ package com.kodilla.collections.homework;
 
 public class Toyota implements Car {
 
-    private int speed;
-    private int increaseSpeed;
-    private int decreaseSpeed;
-    public Toyota(int speed, int increaseSpeed, int decreaseSpeed) {
+    private double speed;
+    private double increaseSpeed;
+    private double decreaseSpeed;
+    public Toyota(double speed, double increaseSpeed, double decreaseSpeed) {
         this.speed = speed;
         this.increaseSpeed = increaseSpeed;
         this.decreaseSpeed = decreaseSpeed;
     }
-    public int getSpeed() {
+    public double getSpeed() {
         return speed;
     }
-    public int getIncreaseSpeed() {
+    public double getIncreaseSpeed() {
         return speed + increaseSpeed;
     }
-    public int getDecreaseSpeed() {
+    public double getDecreaseSpeed() {
         return speed - decreaseSpeed;
     }
 }
