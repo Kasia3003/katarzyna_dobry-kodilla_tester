@@ -41,6 +41,6 @@ public class CarUtils {
         }
     }
     private static double getRandomSize(Random random) {
-        return random.nextDouble() *drawCar().getIncreaseSpeed();
+        return random.nextDouble() * 100 + 1;
     }
 }
