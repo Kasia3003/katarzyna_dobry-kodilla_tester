@@ -22,5 +22,15 @@ public class CarsListApplication {
             if (ford.getSpeed() >= 100)
                 System.out.println(ford + "speed is:" + ford.getSpeed());
         }
+        cars.remove(1);
+        System.out.println(cars.size());
+        for (Car car: cars) {
+            System.out.println(car + "speed is:" + car.getSpeed());
+        }
+        cars.remove(cars);
+        System.out.println(cars.size());
+        for (Car car: cars) {
+            System.out.println(car + "speed is:" + car.getSpeed());
         }
     }
+}
