@@ -2,10 +2,10 @@ package com.kodilla.collections.homework;
 
 public class Ford implements Car {
 
-    private int speed;
-    private int increaseSpeed;
-    private int decreaseSpeed;
-    public Ford(int speed, int increaseSpeed, int decreaseSpeed) {
+    private double speed;
+    private double increaseSpeed;
+    private double decreaseSpeed;
+    public Ford(double speed, double increaseSpeed, double decreaseSpeed) {
         this.speed = speed;
         this.increaseSpeed = increaseSpeed;
         this.decreaseSpeed = decreaseSpeed;
@@ -22,5 +22,14 @@ public class Ford implements Car {
     }
     public double getDecreaseSpeed() {
         return speed - decreaseSpeed;
+    }
+
+    @Override
+    public String toString() {
+        return "Ford{" +
+                "speed=" + speed +
+                ", increaseSpeed=" + increaseSpeed +
+                ", decreaseSpeed=" + decreaseSpeed +
+                '}';
     }
 }
