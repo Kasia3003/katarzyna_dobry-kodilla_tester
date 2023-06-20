@@ -32,6 +32,10 @@ public class UsersManager {
     private static String getUserName(User user) {
         return user.getUsername();
     }
+
+    public char[] equals() {
+    return null;
+    }
 }
 
 
