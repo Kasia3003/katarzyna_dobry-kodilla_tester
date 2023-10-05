@@ -4,3 +4,5 @@ import java.util.Objects;
 
 import static java.lang.String.*;
 
+public class Order {
+}
